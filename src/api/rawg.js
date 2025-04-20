@@ -7,8 +7,6 @@ export async function fetchGames() {
         'Content-Type': 'application/json',
       },
     });
-
-    console.log("API response:", response.data); // 👈 Add this
     return response.data;
   } catch (error) {
     console.error("Error fetching games:", error);
