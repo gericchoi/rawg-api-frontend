@@ -23,7 +23,6 @@ export default function GameList({ games }) {
               <Col md={9}>
                 <Card.Body>
                   <Card.Title>
-                    {/* Display the rank (Top 1, Top 2, ...) */}
                     <span className="rank">{`Top ${index + 1}`}</span> {game.name}
                   </Card.Title>
                   <Card.Text>
